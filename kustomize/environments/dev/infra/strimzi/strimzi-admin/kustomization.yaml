@@ -1,0 +1,3 @@
+resources:
+  - 010-ClusterRole-strimzi-admin.yaml
+  - 020-ClusterRole-strimzi-view.yaml
