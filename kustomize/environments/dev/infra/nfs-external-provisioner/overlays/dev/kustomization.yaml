@@ -1,0 +1,8 @@
+commonLabels:
+  app: nfs-client-provisioner
+  
+resources:
+  - ../../base
+
+patchesStrategicMerge:
+  - patches/deployment-patch.yaml

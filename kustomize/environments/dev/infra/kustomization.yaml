@@ -1,0 +1,4 @@
+namespace: nfs-dev
+
+resources:
+ - nfs-external-provisioner

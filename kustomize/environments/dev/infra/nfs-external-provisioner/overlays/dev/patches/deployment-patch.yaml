@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nfs-client-provisioner
+spec:
+  template:
+    spec:
+      containers:
+        - name: nfs-client-provisioner
+          env:
+            - name: NFS_SERVER
+              value: 192.168.1.9
+            - name: NFS_PATH
+              value: /srv/nfs/kubedata
+      volumes:
+        - name: nfs-client-root
+          nfs:
+            server: 192.168.1.9
+            path: /srv/nfs/kubedata
