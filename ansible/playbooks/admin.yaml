@@ -1,0 +1,3 @@
+- hosts: nfs_node
+  roles:
+    - {role: nfs-server ,  tags: [server, client] }
