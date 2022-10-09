@@ -33,7 +33,7 @@ spec:
     replicas: 1
     storage:
       type: persistent-claim
-      size: 100Gi
+      size: 10Gi
       deleteClaim: false
   entityOperator:
     topicOperator: {}
