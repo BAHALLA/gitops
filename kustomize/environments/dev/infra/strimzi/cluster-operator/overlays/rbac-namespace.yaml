@@ -1,0 +1,7 @@
+namespace:
+  - path: subjects/namespace
+    create: true
+    kind: RoleBinding
+  - path: subjects/namespace
+    create: true
+    kind: ClusterRoleBinding
