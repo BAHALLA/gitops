@@ -4,7 +4,6 @@
   package:
     name:
       - nfs-utils
-      - libselinux-python
     state: present
 
 - name: Ensure directories to export exist
@@ -25,10 +24,10 @@
     owner: root
     group: root
     mode: 0644
-  notify: reload nfs-server
+  notify: [reload nfs-server, reload exports]
 
 - name: "Ensure service {{item}} enabled and started"
-  tags: [server]
+  tags: [server, client]
   service:
     name: "{{item}}"
     state: started
@@ -36,5 +35,3 @@
   with_items:
     - rpcbind
     - nfs-server
-    - nfs-lock
-    - nfs-idmap

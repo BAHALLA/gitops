@@ -3,4 +3,6 @@
   service:
     name: nfs-server
     state: restarted
+- name: reload exports
+  command: 'exportfs -rav'
     
