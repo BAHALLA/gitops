@@ -1,0 +1,4 @@
+namespace: kafka-dev
+
+resources:
+  - cluster-operator

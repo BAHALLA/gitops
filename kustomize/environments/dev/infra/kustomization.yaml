@@ -1,4 +1,6 @@
-namespace: nfs-dev
+commonLabels:
+  env: dev
 
 resources:
  - nfs-external-provisioner
+ - strimzi

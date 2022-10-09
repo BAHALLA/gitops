@@ -1,2 +1,7 @@
+namespace: nfs-dev
+
+commonLabels:
+  app: nfs-client-provisioner
+  
 resources:
  - overlays/dev
