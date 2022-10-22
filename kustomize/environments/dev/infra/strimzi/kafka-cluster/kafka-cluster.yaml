@@ -30,10 +30,10 @@ spec:
         size: 15Gi
         deleteClaim: false
   zookeeper:
-    replicas: 1
+    replicas: 3
     storage:
       type: persistent-claim
-      size: 10Gi
+      size: 5Gi
       deleteClaim: false
   entityOperator:
     topicOperator: {}
