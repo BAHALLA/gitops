@@ -4,3 +4,4 @@ commonLabels:
 resources:
  - nfs-external-provisioner
  - strimzi
+ - monitoring
