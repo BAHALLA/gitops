@@ -6,4 +6,5 @@ helmCharts:
   version: 15.16.1
   releaseName: prometheus-dev
   namespace: monitoring-dev
+  includeCRDs: true
 
