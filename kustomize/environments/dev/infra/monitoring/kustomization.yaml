@@ -1,10 +1,4 @@
 namespace: monitoring-dev
 
-helmCharts:
-- name: kube-prometheus-stack
-  repo: https://prometheus-community.github.io/helm-charts
-  version: 41.5.1
-  releaseName: prometheus-dev
-  namespace: monitoring-dev
-  includeCRDs: true
-
+resources:
+ - overlays/dev
