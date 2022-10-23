@@ -9,3 +9,9 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: kafka-dev
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: monitoring-dev
