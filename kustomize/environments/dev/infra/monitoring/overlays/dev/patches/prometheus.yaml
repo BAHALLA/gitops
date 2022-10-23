@@ -1,5 +1,5 @@
 apiVersion: monitoring.coreos.com/v1
-kind: Prometheus
+kind: PrometheusList
 metadata:
   name: prometheus-dev-kube-promet-prometheus
 spec:
