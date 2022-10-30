@@ -15,3 +15,9 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: monitoring-dev
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nginx-ingress-dev

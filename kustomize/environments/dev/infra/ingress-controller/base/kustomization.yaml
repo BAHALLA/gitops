@@ -1,0 +1,14 @@
+
+resources:
+ - crds
+ - serviceaccount.yaml
+ - rbac.yaml
+ - default-server-secret.yaml
+ - nginx-config.yaml
+ - ingress-class.yaml
+ - deployment.yaml
+
+
+
+
+

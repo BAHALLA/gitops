@@ -1,0 +1,12 @@
+
+resources:
+ - virtualservers.yaml
+ - virtualserverroutes.yaml
+ - transportservers.yaml
+ - policies.yaml
+ - globalconfiguration.yaml
+
+ 
+
+
+
