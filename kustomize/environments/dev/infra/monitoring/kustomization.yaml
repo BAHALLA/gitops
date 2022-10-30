@@ -1,7 +1,4 @@
 namespace: monitoring-dev
 
-commonLabels:
-  env: dev
-  
 resources:
  - overlays/dev
