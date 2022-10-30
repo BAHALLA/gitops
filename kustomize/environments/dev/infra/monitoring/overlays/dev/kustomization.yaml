@@ -1,7 +1,4 @@
 
 resources:
  - ../../base
-
-patches:
  - ingress.yaml
- #- path: patches/prometheus.yaml
