@@ -1,4 +1,7 @@
 namespace: nginx-ingress-dev
 
+commonLabels:
+  env: dev
+  
 resources:
  - overlays/dev
