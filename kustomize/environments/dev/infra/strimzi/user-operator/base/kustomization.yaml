@@ -1,5 +1,0 @@
-resources:
- - 01-ServiceAccount-strimzi-user-operator.yaml
- - 02-Role-strimzi-user-operator.yaml
- - 03-RoleBinding-strimzi-user-operator.yaml
- - 05-Deployment-strimzi-user-operator.yaml

@@ -1,7 +1,5 @@
 namespace: kafka-dev
 
 resources:
-  - strimzi-admin
   - cluster-operator
   - kafka-cluster
-#  - user-operator
