@@ -2,6 +2,7 @@ namespace: nfs-dev
 
 commonLabels:
   app: nfs-client-provisioner
+  env: dev
   
 resources:
  - overlays/dev

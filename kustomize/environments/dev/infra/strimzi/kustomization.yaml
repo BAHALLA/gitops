@@ -1,5 +1,8 @@
 namespace: kafka-dev
 
+commonLabels:
+  env: dev
+  
 resources:
   - cluster-operator
   - kafka-cluster
