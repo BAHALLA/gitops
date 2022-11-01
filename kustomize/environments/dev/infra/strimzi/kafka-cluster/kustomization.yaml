@@ -1,2 +1,3 @@
 resources:
   - kafka-cluster.yaml
+  - kafka-topic.yaml
