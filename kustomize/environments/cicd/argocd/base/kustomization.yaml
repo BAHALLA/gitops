@@ -1,0 +1,8 @@
+resources:
+ - crds.yaml
+ - confimaps.yaml
+ - secrets.yaml
+ - serviceaccounts.yaml
+ - rbac.yaml
+ - deployments.yaml
+ - services.yaml 
