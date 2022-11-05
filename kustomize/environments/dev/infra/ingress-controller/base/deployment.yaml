@@ -65,7 +65,6 @@ spec:
         args:
           - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
           - -default-server-tls-secret=$(POD_NAMESPACE)/default-server-secret
-          - -enable-ssl-passthrough
          #- -include-year
          #- -enable-cert-manager
          #- -enable-external-dns
