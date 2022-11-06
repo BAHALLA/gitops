@@ -5,13 +5,7 @@ resources:
 patches:
   - target:
       kind: ClusterRoleBinding
-    patch: |-
-    - op: replace
-      path: /subjects/0/namespace
-      value: kafka-dev
+    path: patches/clusterrolebinding.yaml
   - target:
       kind: RoleBinding
-    patch: |-
-    - op: replace
-      path: /subjects/0/namespace
-      value: kafka-dev
+    path: patches/rolebinding.yaml
