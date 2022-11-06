@@ -8,8 +8,10 @@ spec:
   sourceRepos:
   - '*'
   destinations:
-  - namespace: kafka-dev
-    server: https://kubernetes.default.svc
+  - namespace: '!kube-system'
+    server: '*'  
+  - namespace: '*'
+    server: '*'
   clusterResourceWhitelist:
   - group: '*'
     kind: '*'
