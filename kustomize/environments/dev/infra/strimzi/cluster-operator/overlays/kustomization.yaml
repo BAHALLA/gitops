@@ -1,6 +1,0 @@
-  
-resources:
-  - ../base
-
-configurations:
-  - rbac-namespace.yaml
