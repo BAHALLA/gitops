@@ -2,18 +2,14 @@
 resources:
   - ../../base
 
-patchesJSON6902:
+patches:
   - target:
-      group: rbac.authorization.k8s.io
-      version: v1
       kind: ClusterRoleBinding
     patch: |-
     - op: replace
       path: /subjects/0/namespace
       value: kafka-dev
   - target:
-      group: rbac.authorization.k8s.io
-      version: v1
       kind: RoleBinding
     patch: |-
     - op: replace
