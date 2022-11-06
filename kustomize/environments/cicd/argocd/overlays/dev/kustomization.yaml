@@ -2,4 +2,6 @@ namespace: argocd
 
 resources:
  - ../../base
+ - applications
+ - project.yaml
  - ingress.yaml
