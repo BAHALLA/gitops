@@ -1,38 +1,28 @@
 all:
   hosts:
     master:
-      ansible_host: 192.168.1.10
-      ip: 192.168.1.10
-      access_ip: 192.168.1.10
+      ansible_host: 10.0.0.10
+      ip: 10.0.0.10
+      access_ip: 10.0.0.10
     node1:
-      ansible_host: 192.168.1.11
-      ip: 192.168.1.11
-      access_ip: 192.168.1.11
+      ansible_host: 10.0.0.11
+      ip: 10.0.0.11
+      access_ip: 110.0.0.11
     node2:
-      ansible_host: 192.168.1.12
-      ip: 192.168.1.12
-      access_ip: 192.168.1.12
-    node3:
-      ansible_host: 192.168.1.13
-      ip: 192.168.1.13
-      access_ip: 192.168.1.13
-    node4:
-      ansible_host: 192.168.1.14
-      ip: 192.168.1.14
-      access_ip: 192.168.1.14
-    nfs-server:
-      ansible_host: 192.168.1.9
-      ip: 192.168.1.9
-      access_ip: 192.168.1.9
+      ansible_host: 10.0.0.12
+      ip: 10.0.0.12
+      access_ip: 10.0.0.12
+    console:
+      ansible_host: 10.0.0.9
+      ip: 10.0.0.9
+      access_ip: 10.0.0.9
   children:
     nfs_node:
       hosts:
-        nfs-server:
+        console:
     kube_node:
       hosts:
         master:
         node1:
         node2:
-        node3:
-        node4:
 
