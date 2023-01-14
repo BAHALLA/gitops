@@ -9,11 +9,11 @@ spec:
         - name: nfs-client-provisioner
           env:
             - name: NFS_SERVER
-              value: 192.168.1.9
+              value: 10.0.0.9
             - name: NFS_PATH
               value: /srv/nfs/kubedata
       volumes:
         - name: nfs-client-root
           nfs:
-            server: 192.168.1.9
+            server: 10.0.0.9
             path: /srv/nfs/kubedata
